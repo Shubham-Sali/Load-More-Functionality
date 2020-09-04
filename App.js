@@ -16,6 +16,7 @@ import Home from './screen/Home';
 import LoadMoreFun from './screen/LoadMoreFun';
 import TypesToast from './screen/TypesToast';
 import SeeMoreLessThan from './screen/SeeMoreLessThan'
+import CheckConnectivity from './screen/connectivityCheck'
 //import all the components we are going to use.
 
 const Stack = createStackNavigator();
@@ -29,6 +30,7 @@ render() {
         <Stack.Screen name="LoadMoreFun" component={LoadMoreFun} />
         <Stack.Screen name="TypesToast" component={TypesToast} />
         <Stack.Screen name="SeeMoreLessThan" component={SeeMoreLessThan} />
+        <Stack.Screen name="CheckConnectivity" component={CheckConnectivity} />
       </Stack.Navigator>
     </NavigationContainer>
   );

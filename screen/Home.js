@@ -36,6 +36,13 @@ export default Home = ({navigation}) => {
            >
            <Text>Swiper Slider</Text>
            </TouchableOpacity>
+
+             <TouchableOpacity
+              style={{...styles.button, marginBottom: 12}}
+              onPress={() => navigation.navigate('CheckConnectivity')}
+           >
+           <Text>Check Connectivity</Text>
+           </TouchableOpacity>
          </View>
       )
   }
